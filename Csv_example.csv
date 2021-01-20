@@ -1,0 +1,6 @@
+row_id,user_id,user_state,user_manager
+1,user101,enable,yes
+2,user102,disable,no
+3,user103,enable,yes
+4,user104,disable,no
+5,user105,enable,yes
