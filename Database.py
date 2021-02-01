@@ -44,7 +44,6 @@ def class_val(database):
         email_array +=[email_manager]
         basename = database.iloc[i]["database_name"]
         database_name += [basename]
-        print(database_name)
     return (email_array,classification,database_name)
 
 def email_data(owner_email):
@@ -55,11 +54,17 @@ def email_data(owner_email):
 
 def secure_connection(sender_email, password, receiver_email,database_name):
 
-    for i in receiver_email and database_name:
+    for i,j in zip (receiver_email, database_name):
         receiver_email=i
+        database_name=j
         print(receiver_email)
         print(database_name)
-        message = "your database is high"
+        message = """\
+Subject: Database evaluation
+
+The database %s is classified as high. Please confirm by replying to this email with an OK if you maintain this classification.""" %(database_name)
+
+
         smtp_server = "smtp.gmail.com"
         port = 587  # For starttls
         # Create a secure SSL context
