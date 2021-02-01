@@ -1,6 +1,7 @@
 row_id,user_id,user_state,user_manager
-1,user101,enable,yes
-2,user102,disable,no
-3,user103,enable,yes
-4,user104,disable,no
-5,user105,enable,yes
+1,chingatemonica+person101@gmail.com,enable,chingatemonica+person1@gmail.com
+2,chingatemonica+person102@gmail.com,disable,chingatemonica+person2@gmail.com
+3,chingatemonica+person103@gmail.com,enable,chingatemonica+person3@gmail.com
+4,chingatemonica+person104@gmail.com,disable,chingatemonica+person4@gmail.com
+5,chingatemonica+person105@gmail.com,enable,chingatemonica+person5@gmail.com
+6,chingatemonica+person106@gmail.com,enable,chingatemonica+person6@gmail.com
